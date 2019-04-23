@@ -6,19 +6,12 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
-
-* System dependencies
-
-* Configuration
+2.6.2
 
 * Database creation
-
-* Database initialization
+rake db:create
+rake db:migrate
+rake db:setup
 
 * How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+bundle exec cucumber --profile default --guess --tags @crear_usuarios
