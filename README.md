@@ -10,8 +10,12 @@ Things you may want to cover:
 
 * Database creation
 rake db:create
+<br/>
 rake db:migrate
+<br/>
 rake db:setup
+<br/>
 
 * How to run the test suite
+<br/>
 bundle exec cucumber --profile default --guess --tags @crear_usuarios
